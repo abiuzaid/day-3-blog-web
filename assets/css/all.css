@@ -10,11 +10,11 @@
     color: rgba(41, 130, 255, 0.904);
   }
   body {
-    background-color: rgb(245, 238, 238);
+    background-image: url(../images/bg.jpg) ;
     margin: 0;
   }
   nav {
-    background-color: rgb(236, 230, 230);
+    background-color: rgb(231, 231, 231);
     padding: 0 50px;
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@
     margin-right: 50px;
   }
   nav ul li a {
-    color: rgb(173, 173, 173);
+    color: rgb(2, 2, 2);
   }
   nav ul li.active a {
     color: rgb(0, 23, 54);

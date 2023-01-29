@@ -5,17 +5,13 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(133, 133, 133);
+    background-color: rgb(255, 251, 251);
     border-radius: 10px;
-    box-shadow: 0 8px 32px rgba(29,29,29,0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.438);
     padding: 50px;
   }
   .left-container {
     width: 60%;
-  }
-  .left-container h1 {
-    font-weight: 800;
-    margin-top: 0;
   }
   .left-container p {
     text-align: justify;
@@ -38,7 +34,7 @@
     font-size: 16px;
   }
   .contact-button button:hover {
-    background: rgb(255, 255, 255);
+    background: rgba(153, 149, 149, 0.904);;
   }
   .download-cv-button button {
     border: none;
@@ -49,14 +45,14 @@
     font-size: 16px;
   }
   .download-cv-button:hover button {
-    color: rgb(255, 255, 255);
+    color: rgba(153, 149, 149, 0.904);
   }
   .download-cv-button button i {
     margin-left: 5px;
     color: rgb(0, 0, 0);
   }
   .download-cv-button:hover button i {
-    color: rgb(253, 248, 248);
+    color: rgba(153, 149, 149, 0.904);
   }
   .social-media-container {
     margin: 40px 0 0 0;
@@ -66,7 +62,7 @@
   }
   .social-media-container a button {
     font-size: 30px;
-    background: rgb(233, 242, 253);
+    background: rgb(255, 255, 255);
     border: none;
     color: rgb(255, 255, 255);
     padding: 8px 10px;
@@ -74,17 +70,19 @@
     margin-right: 20px;
   }
   .social-media-container a button:hover {
-    background: rgb(0, 0, 0);
+    background: rgba(153, 149, 149, 0.904);
   }
   .social-media-container a button i {
     color: rgb(0, 0, 0);
   }
   .profile {
+    height: 465px;
     width: 35%;
     border-radius: 10px;
     box-shadow: 0 8px 32px rgba(29,29,29,0.25);
   }
   .profile img {
+    height: 365px;
     width: 100%;
     border-radius: 10px 10px 0 0;
   }
